@@ -21,16 +21,16 @@
 
 // ** MySQL 設定 - この情報はホスティング先から入手してください。 ** //
 /** WordPress のためのデータベース名 */
-define('DB_NAME', 'wordpress4');
+define('DB_NAME', 'heroku_af9c84e3b970023');
 
 /** MySQL データベースのユーザー名 */
-define('DB_USER', 'root');
+define('DB_USER', 'b8ccaa2a6b7584');
 
 /** MySQL データベースのパスワード */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'caecbd73');
 
 /** MySQL のホスト名 */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'us-cdbr-iron-east-01.cleardb.net');
 
 /** データベースのテーブルを作成する際のデータベースの文字セット */
 define('DB_CHARSET', 'utf8');
@@ -47,14 +47,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'x dsrh<*iCM.WTw7 |a((!^&(-c$l:HdWBc~3e&gHbq[%n8+!UM_<BQ=#aS h5+8');
-define('SECURE_AUTH_KEY',  'j:p-wtW$?6Lqp+]t<4Q@`m_-+rF(0*y8)5-7XZ2MS~k*?V#h8*p6a$<Y+;y,GcK5');
-define('LOGGED_IN_KEY',    'f-}|MWRb]}@K0-)8$FWFJgra6:Fb(=L:F~Ym|}d:.mG_DWFP6+6MmI3^-WFH,Vh+');
-define('NONCE_KEY',        'Y%tO_t,b,=?6u$d ?WRZn@Y6;tgg/,c0h)2>>]C_8m3@zJM:(Kncz!ank8bQA`wV');
-define('AUTH_SALT',        ']d39YW}=0$^+pa$.m.2xk7c3+eP{pvVF|-,/<i6fejU{oc3xV?_^|c@*Ypt^KSni');
-define('SECURE_AUTH_SALT', 'Zi#43B$9O8T$-*n.:*8#n]]ij+fN+)scR^5%F p_/oCO5D:@`A$BW8WS:YI|#oMk');
-define('LOGGED_IN_SALT',   '3Z$:N2oZ4%<H4e`&YxPnr!p^M7r6OoV@Q7HoyccxAD(I,-t~^h:hP;,Iu7hH@;vP');
-define('NONCE_SALT',       'vAHa90;%pKEvqu+hU.mBzd9{*~*9H[G@]Aq3i2-EUX|D6O}uYo~w8;0a{6YYcz!+');
+define('AUTH_KEY',         'zjkw1WXoP(z!iN&.Ay%GF|NF9AX+beLO-@r1Lz=p_W._aynnM;}*JhC;3-a0Kr3E');
+define('SECURE_AUTH_KEY',  'I~L92E~ZXv{U8DS< >SJEB4A2)VG=*6b3#Z=h}HDEl1k^s-5MC66[7Q,1k[N]E2T');
+define('LOGGED_IN_KEY',    'Ul;E;*.!@y.>jR??r^ih%rwY` )xx-34M&9r:$|gG!T+Z#9:*Oa$#f6L3%sz~R%+');
+define('NONCE_KEY',        '1uQS0TT_^|?pcZgjSWscbWFtZ73>,ZxPlk*9^tHx;/^-b[=a7DN^Yyf*(3@<yduF');
+define('AUTH_SALT',        '50ip IA@^Wh(8J]o1cwi|U^(hZvP!^o6P+Lx_u:Ec>I;tewh@k+B%^ZOIu)wti+a');
+define('SECURE_AUTH_SALT', '~XTddeI,|Vq)lnM?y[T/..K6-0%XO^DZu-`wgil||$v<$D~%bayMJ0/zn%hvV3^i');
+define('LOGGED_IN_SALT',   '1+znFIM5[Z!Ijm9tI7!GQZysVW/82syS9,N[?~_!d%21Oot|fq.E0Hp.SQ(_,}}t');
+define('NONCE_SALT',       'FM4z[bb{AT|*htr6wfG/+m$LoG4TTx2zYRbF9iKCN(d<7%zz^ELLZs{)3A[v3B+=');
 
 /**#@-*/
 
